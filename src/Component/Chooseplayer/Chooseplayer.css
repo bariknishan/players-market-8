@@ -1,0 +1,44 @@
+.player img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.player{
+    width:300px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgb(241, 237, 231);
+    position: relative;
+}
+.player-name{
+    font-size: 30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 6px;
+   
+}
+.player-detail{
+    font-size: 18px;
+    font-weight: 400;
+    color: navy;
+    margin-left: 5px;
+    margin-bottom: 0;
+    
+    
+}
+.btn-area{
+    width: 90%;
+   margin-right: 0;
+    border: none;
+    position: absolute;
+    bottom: 0;
+   
+    text-align: center;
+}
+.btn-area:hover{
+    background-color: orange;
+    width:90%;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Chooseplayer from '../Chooseplayer/Chooseplayer';
 import './Player.css';
 
 const Player = () => {
@@ -13,9 +14,16 @@ const Player = () => {
       
         <div className='header-players'>
            
-            <div className="players-container">
-             <h2>this is players area:{players.length}</h2>
+            <div className="players-container"> 
+            
+             {
+            players.map(player=> <Chooseplayer
+                key={player.id}
+                player={player}
+            ></Chooseplayer>)
+             }
             </div>
+            
             <div className="select-container">
             <h2>this is  selection area</h2>
             </div>
