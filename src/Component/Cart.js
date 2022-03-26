@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cart.css';
-const Cart = ({cart}) => {
+const Cart = ({cart,reset}) => {
     return (
         <div className='cart'>
              <h2>Checklist</h2>
@@ -9,7 +9,7 @@ const Cart = ({cart}) => {
             <br />
 
             <div className='btn' ><button  className='button-one'><span className='btn-text1'> Choose One </span> </button> </div>
-            <div className='btn' ><button className='button-two' ><span className='btn-text2'> Choose Again</span></button> </div>
+            <div className='btn' ><button onClick={reset} className='button-two' ><span className='btn-text2'> Choose Again</span></button> </div>
         </div>
     );
 };

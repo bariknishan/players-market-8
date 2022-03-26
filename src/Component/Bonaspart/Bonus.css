@@ -1,0 +1,28 @@
+
+.bonus-container{
+margin-top: 50px;
+display: grid;
+gap:10px;
+grid-template-columns: repeat(2,1fr);
+/* background-color: grey; */
+
+}
+
+.react-para{
+    margin-left: 15px;
+   box-shadow: 10px 5px 10px grey;
+   width: 500px;
+    
+}
+.props-state{
+    margin-left: 15px;
+    box-shadow: 10px 5px 10px grey;
+    width: 500px;
+}
+
+@media screen and (max-width:668px){
+    .bonus-container{
+        grid-template-columns: repeat(1,1fr)
+        
+    }
+}

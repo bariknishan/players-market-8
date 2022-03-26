@@ -25,6 +25,10 @@ const Player = () => {
         const newCart=[...cart,player];
         setCart(newCart);
     }
+
+    const reset=()=>{
+        setCart([])
+    }
     return (
         
       
@@ -39,12 +43,23 @@ const Player = () => {
                 addToCart={addToCart}
             ></Chooseplayer>)
              }
+
             </div>
 
             <div className="cart-container">
-           <Cart cart={cart}></Cart>
+           <Cart cart={cart} reset={reset}> </Cart>
+
             </div>
-            </div>
+
+         
+
+
+
+
+
+          </div>
+          
+         
        
     );
 };
