@@ -30,9 +30,9 @@ const Player = () => {
     }
 
      const ChooseOneButton=()=>{
-        //  const random= cart[Math.floor(Math.random()*cart.length)]
+         const random= cart[Math.floor(Math.random()*cart.length)]
          if (cart.length <4 ) {
-             alert('choose  less than four player')
+             alert('choose  Atleast 4 players player')
          }
      }
     const reset=()=>{
