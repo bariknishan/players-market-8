@@ -1,9 +1,14 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-import './Chooseplayer.css';
+import './Chooseplayers.css';
 
 const Chooseplayer = (props) => {
     // console.log(props.player)
+
+    // console.log(props)
     const{img,name,id,price}=props.player;
+  
 
     return (
         <div className='player'>
@@ -14,7 +19,10 @@ const Chooseplayer = (props) => {
            <p>ID:{id}</p>
            <p>Price:${price}</p>  
           </div>
-          <button className='btn-area'><p>ADD TO LIST</p></button>
+          <button onClick={()=>props.addToList(props.player)} className='btn-area'><p>ADD TO CART</p>
+          
+          <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+          </button>
         </div>
     );
 };

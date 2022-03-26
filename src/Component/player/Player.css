@@ -1,9 +1,32 @@
 .header-players{
 display: grid;
 grid-template-columns: 4fr 1fr;
+/* width: 100%; */
 }
 .players-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:40px;
+    margin: 100px 50px;
+}
+
+
+.btn-text1{
+    color: blue;
+
+}
+.btn-text2{
+    color: red;
+}
+
+@media screen and (max-width:1000px){
+    .players-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:668px){
+    .players-container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
