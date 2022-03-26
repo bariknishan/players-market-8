@@ -1,3 +1,4 @@
+import { faRandom } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart';
 import Chooseplayer from '../Chooseplayer/Chooseplayers';
@@ -20,12 +21,20 @@ const Player = () => {
 
 
 // button event 
+
     const addToCart=(player)=>{
-        console.log(player);
+      
         const newCart=[...cart,player];
         setCart(newCart);
+
     }
 
+     const ChooseOneButton=()=>{
+        //  const random= cart[Math.floor(Math.random()*cart.length)]
+         if (cart.length <4 ) {
+             alert('choose  less than four player')
+         }
+     }
     const reset=()=>{
         setCart([])
     }
@@ -47,7 +56,7 @@ const Player = () => {
             </div>
 
             <div className="cart-container">
-           <Cart cart={cart} reset={reset}> </Cart>
+           <Cart cart={cart} reset={reset} ChooseOneButton={ChooseOneButton}> </Cart>
 
             </div>
 

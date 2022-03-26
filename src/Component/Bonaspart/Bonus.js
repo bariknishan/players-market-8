@@ -10,10 +10,10 @@ const Bonus = () => {
 
             <h1>HOW REACT WORKS:</h1> 
             <p className='fisrt-para'>At first react bassically maintain a tree. <br /> 
-            This tree  is able to do efficient diff computation on the nodes.<br /> 
-             Think og HTML code as tree. <br/> Infact that is exactly How the browser treates the DOM.<br /> 
-               Then reacts allows to   effectively re-contsruct the DOM  in javasript and push only <br /> 
-                those changes  to the DOM which hav actually occured.</p>
+                                      This tree  is able to do efficient diff computation on the nodes.<br /> 
+                                      Think og HTML code as tree. <br/> Infact that is exactly How the browser treates the DOM.<br /> 
+                                      Then reacts allows to   effectively re-contsruct the DOM  in javasript and push only <br /> 
+                                       those changes  to the DOM which hav actually occured.</p>
                </div>
 
             <div className="props-state">

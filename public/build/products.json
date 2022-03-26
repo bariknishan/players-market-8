@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": " Messi",
+    "price": 24000000,
+   
+   
+    "img": "https://imageio.forbes.com/specials-images/imageserve/5ec595d45f39760007b05c07/0x0.jpg?format=jpg&crop=1491,1490,x989,y74,safe&fit=crop"
+
+  },
+
+  {
+    "id": "2",
+    "name": "neymar",
+   
+    "price": 1000000,
+    "img": "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1342x669:1344x667)/origin-imgresizer.eurosport.com/2021/01/01/2963993-60835788-2560-1440.jpg"
+  
+  },
+  {
+    "id": "3",
+    "name": "ronaldo",
+    "price": 3400000,
+    "img": "https://library.sportingnews.com/2021-10/cristiano-ronaldo-man-utd_168rmxlyshcfa15hm4w4kphivu.jpg"
+   
+  },
+  {
+    "id": "4",
+    "name": "mbappe",
+    "price": 130000,
+    "img": "https://therealchamps.com/wp-content/uploads/getty-images/2018/08/1373719508.jpeg"
+  
+  },
+  {
+    "id": "5",
+    "name": "Haland",
+    "price": 1233287,
+    "img": "https://icdn.football-espana.net/wp-content/uploads/2022/02/Erling-Haaland-3.jpeg"
+   
+  },
+  {
+    "id": "6",
+    "name": "Hazard",
+    "price": 3000000,
+    
+    "img": "https://atalayar.com/sites/default/files/styles/foto_/public/noticias/Atalayar_Eden%20Hazard%20Real%20Madrid%20%284%29.jpg?itok=heAtQ4Q5"
+   
+  },
+  {
+    "id": "7",
+    "name": "Pedri",
+    "price": 4000000,
+    "img":"https://icdn.football-espana.net/wp-content/uploads/2021/10/pedri-rf.jpg"
+
+  },
+  {
+    "id": "8",
+    "name": "vinicious",
+    "price": 5000000,
+    "img": "https://cdn.vox-cdn.com/thumbor/rdapMWlCsZVAMeaKS6j5myI5p5o=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22849362/1335777275.jpg"
+
+  },
+
+  {
+    "id": "9",
+    "name": "Reus",
+    "price": 30000000,
+   
+    "img": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/u8vuaqldxliep5k9_1621397187.jpeg"
+   
+  }
+ 
+  
+]
