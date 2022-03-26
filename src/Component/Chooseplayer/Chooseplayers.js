@@ -19,7 +19,7 @@ const Chooseplayer = (props) => {
            <p>ID:{id}</p>
            <p>Price:${price}</p>  
           </div>
-          <button onClick={()=>props.addToList(props.player)} className='btn-area'><p>ADD TO CART</p>
+          <button onClick={()=>props.addToCart(props.player)} className='btn-area'><p>ADD TO CART</p>
           
           <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
           </button>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart';
 import Chooseplayer from '../Chooseplayer/Chooseplayers';
 import './Player.css';
 
@@ -35,17 +36,13 @@ const Player = () => {
             players.map(player=> <Chooseplayer
                 key={player.id}
                 player={player}
-                addToList={addToCart}
+                addToCart={addToCart}
             ></Chooseplayer>)
              }
             </div>
 
             <div className="cart-container">
-            <h2>Players Checklist</h2>
-            <p>Selected Players:{cart.length}</p>
-            <br />
-            <div className='button-one' ><button ><span className='btn-text1'> Choose One </span> </button> </div>
-            <div className='button-two' ><button><span className='btn-text2'> Choose Again</span></button> </div>
+           <Cart cart={cart}></Cart>
             </div>
             </div>
        

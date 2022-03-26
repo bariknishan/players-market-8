@@ -1,0 +1,29 @@
+.cart{
+    position: sticky;
+    top:0;
+    padding: 30px 22px; 
+}
+
+.button-one{
+    width: 90%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+   
+}
+.button-one:hover{
+    background-color: aqua;
+}
+.button-two{
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(98, 0, 255);
+    border: none;
+}
+.button-two:hover{
+background-color: blueviolet ;
+}
+.btn{
+    margin: 10px;
+    border-radius: 10px;
+}
